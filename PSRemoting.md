@@ -13,25 +13,7 @@
 
 # HOW PS REMOTING WORKS ?
 
-				        http 5985 / https 5986
-       ___________ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _____________
-      |  	 |								   |	       |
-      |PowerShell|	                        		                   |PowerShell |
-      |__________| _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ |___________|
-          /\			  Encrypted connection (256 bit Key)                    /\
-	 PC1										PC2
-      __________________________________________________________________________________________________
-      | 01                    | 02                      | 03                    | 04                   |  
-      |                       |                         |                       |		       |	
-      |  Local PowerShell     | Identity confirmed.     | Command typed on the  | The remote system    |
-      | session authenticates | Privelges granted based | local system are sent | EXECUTES the commands|
-      | against remote client.| on local group          | to a remote computer  | locally and sends the| 
-      | 	              | membership.             | and executed locally  | results back to the  |
-      |  - Enter-PSSession    | PS Session on remote    | on the Remote         | local system         |
-      |  - Invoke-Command     | system via WS-MAN /     | System.               |                      |
-      |  - Any Cim cmdlets    | WinRM                   |                       |                      |
-      |_______________________|_________________________|_______________________|______________________|
-     <-------------------------------------------------------------------------------------------------->
+	<img width="625" alt="image" src="https://user-images.githubusercontent.com/56192979/153412807-100fdcea-bfe7-4df1-9dcd-3230234b8c54.png">
 
 
 
