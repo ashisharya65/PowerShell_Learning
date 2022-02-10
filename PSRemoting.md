@@ -1,6 +1,5 @@
 
 # PS REMOTING 
-==================
 
 1. It is a feature in PowerShell that let admins securely run commands on remote machines.
 
@@ -11,10 +10,9 @@
 
 4. WS-MAN is an open standard for exchanging management data securely.
 
-==================================================================================================================================================================
 
 # HOW PS REMOTING WORKS ?
-========================
+
 						http 5985 / https 5986
        ____________ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ____________
        |	  |   									    |          |								
