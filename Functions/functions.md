@@ -6,7 +6,9 @@
 ## Function Syntax
 
         function <name> {<statement list>}
-    
+   
+   
+   <img width="425" alt="image" src="https://user-images.githubusercontent.com/56192979/170746766-1722f7bf-64c9-4c30-b9a2-ef84ee817c72.png">
 
 * Here the statement list is also called **Script Block**. 
 
